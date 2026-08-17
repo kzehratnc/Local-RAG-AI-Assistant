@@ -1,0 +1,27 @@
+# Sanal ortam
+venv/
+env/
+.venv/
+
+# Python önbellek dosyaları
+__pycache__/
+*.pyc
+*.pyo
+
+# Ortam değişkenleri / gizli bilgiler
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE / editör ayarları
+.vscode/
+.idea/
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+
+# Foundry Local model önbelleği (varsa)
+*.onnx
+model_cache/
